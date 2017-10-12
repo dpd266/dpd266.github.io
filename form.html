@@ -1,0 +1,39 @@
+<html>
+	<head></head>
+	<body>
+		<h1>ACME Company</h1>
+		<h2>Registration</h2>
+
+		<form id="registration_form" action="confirmation.html" method="GET">
+			<fieldset>
+				<legend>Info</legend>
+				<label for="username">User Name</label><input placeholder="user name" id="username" name="uname" type="text">
+				<br>
+				<label for="password">Password</label><input placeholder="password" id="password" name="pw" type="password">
+				<br>
+				<label for="confirm">Confirm Password</label><input placeholder="confirm password" id="confirm" name="pw2" type="password">
+			</fieldset>
+			<fieldset>
+				<legend>Favorite Hobbies</legend>
+
+				<input name="hobbies" id="chb1" value="running" type="checkbox"><label for="chb1">Running</label>
+				<br>
+				<input name="hobbies" id="chb2" value="walking" type="checkbox"><label for="chb2">Walking</label>
+				<br>
+				<input name="hobbies" id="chb3" value="talking" type="checkbox"><label for="chb3">Talking</label>
+			</fieldset>
+
+			<input type="submit" value="submit">
+
+		</form>
+
+		<h3>Rules</h3>
+
+		<ol>
+			<li>Rule 1</li>
+			<li>Rule 2</li>
+			<li>Rule 3</li>
+		</ol>
+		<script src="form.js"></script>
+	</body>
+</html>
