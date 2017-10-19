@@ -1,0 +1,26 @@
+body{
+	font-family: "Helvetica";
+	color: #cbccc7;
+	background-color: black
+
+}
+a{
+	color:#ffffff;
+}
+
+h1{
+	color: #565654;
+}
+
+h2{
+	color: #961010;
+}
+
+h3,h4,h5,h6{
+	color: #7a5353;
+}
+
+blockquote{
+	font-style: italic;
+	color: #b78d8d;
+}
